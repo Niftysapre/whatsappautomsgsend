@@ -18,7 +18,7 @@ def sendmessage(phoneNumber, msg, hour, minute):
     except Exception as e:
         print(str(e))
 
-theMessage = random.choice(['Привет,как ты?',
+message = random.choice(['Привет,как ты?',
              'Как твой день?',
              emoji.emojize('Люблю тебя :sparkling_heart:'),
              emoji.emojize(':red_heart:", variant="emoji_type'),
